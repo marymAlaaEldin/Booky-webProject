@@ -1,0 +1,271 @@
+body
+{
+    background-color: #430973;
+    padding: 0px;
+    perspective: 600px;
+    overflow-x: hidden;
+}
+.navbar-brand
+{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-right: 3vw;
+    background: -webkit-linear-gradient( #fcb045,#672692);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-link
+{
+    color: thistle;
+    font-weight: bold;
+    font-size: large;
+}
+.nav-link:hover
+{
+    background: -webkit-linear-gradient( #fc9d45,#672692);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav
+{
+    margin-bottom: 5vw;
+}
+.list-icon
+{
+    color: thistle;
+    font-size: 30px;
+}
+.dropdown-menu
+{
+    background-color: thistle;
+    border-color: thistle;
+    border-bottom: 4px solid #fc9d45;
+}
+.dropdown-item
+{
+    color: #430973;
+}
+.dropdown-item:hover
+{
+    background-color: #430973;
+    color: thistle;
+}
+.form-control
+{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid thistle;
+}
+.search-btn
+{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #8132b6;
+    width: 120px;
+    font-weight: bold;
+    background: -webkit-linear-gradient( #fc9d45,#672692);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+}
+.search-btn:hover
+{
+    box-shadow: 0px 0px 8px #8132b6;
+}
+h1
+{
+    font-size: 10vh;
+    color: thistle;
+}
+.header-txt
+{
+    color: thistle;
+    line-height: 30px;
+    font-size: x-large;
+    padding: 50px;
+}
+.down
+{
+    border-radius: 80px;
+    width:80px;
+    height: 80px;
+    left: 50%;
+    position: absolute;
+    border-bottom: 8px solid#fc9d45;
+    text-align: center;
+    transition: all 1s ease;
+}
+.icon
+{
+    font-size: 60px;
+    color: #fc9d45;
+    
+}
+section
+{
+    margin-top: 15vw;
+    height: auto;
+}
+h5
+{
+    font-size: 15px;
+    color: thistle;
+    letter-spacing: 2px;
+    text-transform: uppercase;;
+}
+h2
+{
+    background: -webkit-linear-gradient( #fc9d45,#672692);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.hr
+{
+    background-image: linear-gradient(to left,#fc9d45,#672692);
+    height: 8px;
+
+}
+hr
+{
+    background-color: #fc9d45;
+    
+}
+.triangle
+{
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background-image: linear-gradient(to left,#fc9d45,#672692);
+    color: thistle;
+    height: 120px;
+    padding: 20px;
+    padding-top: 5vh;
+    font-weight: bold;
+    font-size: larger;
+}
+.imgbook
+{
+    padding: 0px;
+}
+.row-book
+{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+h3
+{
+    text-align: center;
+    color: gray;
+}
+.description
+{
+    border: 2px solid #fcb045;
+    border-radius: 7px;
+    padding: 5vw;
+    z-index: 1;
+    background-color: white;
+    top:10%;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 0px 10px white;
+    font-size: large;
+    color: #430973;
+}
+span
+{
+    color: gray;
+    font-size: larger;
+    margin-right: 30px;
+}
+.close ,.read-online-link
+{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+.feedback
+{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+.card 
+{
+    background-color: #5a2280;
+    box-shadow: 0 0 9px 0  #8132b6;
+    padding: 10px;
+    padding: 84px 45px 56px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: .5s;
+    height: 400px;
+    margin-bottom: 3vw;
+}
+.card:hover
+{
+    border: 1px solid #fc9d45;
+}
+.card-icon
+{
+    font-size: 70px;
+    color: thistle;
+    margin-bottom: 30px;
+}
+.h-book ,.p-book
+{
+    color: thistle;
+    cursor: pointer;
+}
+.p-card,small
+{
+    color: grey;
+}
+h4
+{
+    color: thistle;
+}
+.about-img
+{
+    border: 2px solid thistle;
+    border-radius: 80px;
+    height: 100px;
+    width: 100px;
+}
+footer
+{
+    background-color: white;
+    border-top: 2px solid #fc9d45;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+    margin-top: 10vw;
+}
+ul li
+{
+    list-style: none;
+}
+.footer-link
+{
+    color: gray;
+}
+.footer-link:hover
+{
+    text-decoration: none;
+    color: indigo;
+}
+.footer-icon
+{
+    font-size: 30px;
+    color: #430973;
+}
+.footer-icon:hover
+{
+    color: #fcb045;
+    text-decoration: none;
+}
+.cover
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    display: none;
+}
